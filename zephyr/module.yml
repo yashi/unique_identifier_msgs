@@ -1,0 +1,6 @@
+name: unique_identifier_msgs
+build:
+  cmake: zephyr
+  kconfig: zephyr/Kconfig
+  depends:
+    - rosidl
